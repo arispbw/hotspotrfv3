@@ -1,0 +1,464 @@
+﻿$(if http-status == 302)Hotspot login required$(endif)
+$(if http-header == "Location")$(link-redirect)$(endif)
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hotspot | Realfood Winta Asia</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" href="assets\img\favicon.png">
+    <link rel="icon" href="assets\img\favicon.png">
+    <link rel="stylesheet" href="assets\css\theme-6-bootstrap.css">
+    <link rel='stylesheet' href='assets\css\bootstrap.min.css'>
+    <link rel='stylesheet' href='assets\css\vendor.css'>
+    <link rel="stylesheet" href="assets\css\theme-6.css">
+    <link rel='stylesheet' href='assets\css\style.css'>
+    <link rel='stylesheet' href='assets\css\demo.css'>
+    <link rel='stylesheet' href='assets\css\custom.css'>
+    <script src='assets\js\vendor\html5shiv.min.js'></script>
+</head>
+<body>
+
+  <div class="site">
+    <div class="site-loader">
+      
+    </div> <!-- .site-loader -->
+
+    <div class="site-canvas">
+      <header class="site-header">
+        <nav class="navbar navbar-theme">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="navbar-brand-wrap">
+                <a class="navbar-brand" href="#">
+                  <img src="assets\img\site-header-logo.png" alt="">
+                </a>
+              </div>
+            </div> <!-- .navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#brief_1">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="logout.html?erase-cookie=true">Keluar</a></li>
+                <li class="audio-toggle"><a href="#"><i class="fa fa-volume-up"></i></a></li>
+              </ul>
+            </div> <!-- .navbar-collapse -->
+          </div>
+        </nav>
+      </header> <!-- .site-header -->
+      <main class="site-main">
+        <div id="home" class="section block-primary position-r align-c-xs-max">
+          <div id="particles-js" class="site-bg">
+            <div class="site-bg-img"></div>
+            <div class="site-bg-video"></div>
+            <div class="site-bg-overlay"></div>
+            <div class="site-bg-effect layer" data-depth=".30"></div>
+            <canvas class="site-bg-canvas layer" data-depth=".30"></canvas>
+          </div> <!-- .site-bg -->
+
+          <div class="container">
+            <div class="row row-table">
+              <div class="col-sm-6">
+                <div class="col-inner" data-sr="left">
+                  <div class="section-heading">
+                    <h1>Realfood Winta Asia</h1>
+                    <p>Selamat datang $(username) di layanan Internet Realfood Winta Asia</p>
+                    <a href="status.html">Cek Status Penggunaan Disini </a>
+                  </div> <!-- .section-heading -->
+
+                  <div class="card-block py-lg px-md">
+                    <div class="row">
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="http://google.com" target="_blank">
+                            <button type="submit" class="btn btn-block btn-success">
+                              <span class="icon fa fa-google-plus-square"></span> Google
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="http://youtube.com" target="_blank">
+                            <button type="submit" class="btn btn-block btn-red">
+                              <span class="icon fa fa-youtube-square"></span> Youtube
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="http://facebook.com" target="_blank">
+                            <button type="submit" class="btn btn-block btn-info">
+                              <span class="icon fa fa-facebook-official"></span> facebook
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="http://tokopedia.com" target="_blank">
+                            <button type="submit" class="btn btn-block btn-purple">
+                              <span class="icon fa fa-shopping-cart"></span> Tokopedia
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="https://shopee.co.id" target="_blank">
+                            <button type="submit" class="btn btn-block btn-danger">
+                              <span class="icon fa fa-shopping-bag"></span> Shopee
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                      <div class="col-md-4 col-xs-6">
+                        <div class="form-group mb-0">
+                          <a href="https://api.whatsapp.com" target="_blank">
+                            <button type="submit" class="btn btn-block btn-green">
+                              <span class="icon fa fa-whatsapp"></span> Whatsapp
+                            </button>
+                          </a>
+                        </div> 
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-p-l-1 m-t-60-xs-max">
+                <div class="col-inner clearfix">
+                  <img class="img-responsive float-r-sm-min m-x-auto-xs-max" src="assets\img\item\home.png" alt="" data-sr="right">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #home -->
+
+        <div id="about" class="section p-a-0 align-c">
+            <div class="container-fluid p-x-0">
+              <div class="row row-table">
+                <div class="col-sm-4 block-warning p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
+                  <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
+                    <div class="icon-box _center">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\realfitbeauty.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h3>REALFOOD BEAUTY</h3>
+                      </div>
+                      <div class="icon-box-content">
+                        <p>210 ml - Bird's Nest Sensasi Buah Persik dengan Kolagen</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm-4 block-pink p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
+                  <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
+                    <div class="icon-box _center">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\realfitclassic.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h3>REALFOOD CLASSIC</h3>
+                      </div>
+                      <div class="icon-box-content">
+                        <p>210 ml - Bird's Nest Rasa Original dengan Stevia</p> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-sm-4 block-success p-x-30-sm-max p-x-60-md-min p-t-20-sm-min align-t-sm-min">
+                  <div class="col-inner p-y-50-sm-min p-y-30-xs-max max-width m-x-auto-xs-max">
+                    <div class="icon-box _center">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\realfitcalm.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h3>REALFOOD CALM</h3>
+                      </div>
+                      <div class="icon-box-content">
+                         <p>210 ml - Bird's Nest Sensasi buah Kurma</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #about -->
+
+        <div id="brief_1" class="section block-default align-c-xs-max">
+            <div class="container">
+              <div class="row row-table">
+                <div class="col-sm-6">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2>PURE WELLNESS</h2>
+                    </div> <!-- .section-heading -->
+                    <div class="section-content">
+                      <ul class="icon-list align-l m-t-30">
+                        <li>Hadir untuk memberikan nutrisi lengkap untuk segala usia. Glikoprotein dan asam sialat dalam 99% sarang burung walet aslinya membantu menyokong sistem imun, mempercepat proses regenerasi sel, menjaga sistem metabolisme tubuh, serta membantu, dan menjaga sistem pencernaan.</li>
+                        <li>Program ini aman untuk dikonsumsi oleh penderita diabetes karena menggunakan pemanis alami stevia yang rendah kalori sehingga aman dikonsumsi oleh siapapun.</li>
+                        </ul>
+                      <a class="btn btn-primary m-y-5" href="#brief_2">Lainnya</a>
+                      <!-- <a class="btn btn-invert m-y-5" href="#brief_2">More Button</a> -->
+                    </div> <!-- .section-content -->
+                  </div>
+                </div>
+                <div class="col-sm-6 m-t-60-xs-max p-l-60-md-min">
+                  <div class="col-inner clearfix">
+                    <img class="img-responsive float-r-sm-min m-x-auto-xs-max" src="assets\img\item\purewellness.png" alt="" data-sr="right">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #brief_1 -->
+  
+          <div id="brief_2" class="section block-warning align-c-xs-max">
+            <div class="container">
+              <div class="row row-table">
+                <div class="col-sm-6 m-b-60-xs-max p-r-60-md-min">
+                  <div class="col-inner clearfix">
+                    <img class="img-responsive float-l-sm-min m-x-auto-xs-max" src="assets\img\item\royalwellness.png" alt="" data-sr="left">
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2>ROYAL WELLNESS</h2>
+                    </div> <!-- .section-heading -->
+                    <div class="section-content">
+                        <ul class="icon-list align-l m-t-30">
+                            <li>Royal Wellness hadir untuk memberikan nutrisi lengkap untuk segala usia. Glikoprotein dan asam sialat dalam 99% sarang burung walet aslinya membantu menyokong system imun, mempercepat proses regenarasi sel, menjaga syste metabolisme tubuh, serta membantu menjaga system pencernaan. Selain itu, asam sialat juga membantu memberikan nutrisi lengkap untuk ibu hamil, serta dalam perkembangan otak janin.</li>
+                        </ul>
+                      <a class="btn btn-success m-y-5" href="#brief_3">Lainnya</a>
+                      <!-- <a class="btn btn-pink m-y-5" href="#brief_3">More Button</a> -->
+                    </div> <!-- .section-content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #brief_2 -->
+
+          <div id="brief_3" class="section block-default align-c-xs-max">
+            <div class="container">
+              <div class="row row-table">
+                <div class="col-sm-6">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2>STAY FIT</h2>
+                    </div> <!-- .section-heading -->
+                    <div class="section-content">
+                      <ul class="icon-list align-l m-t-30">
+                        <li>Stay Fit merupakan partner yang tepat untuk memenuhi kebutuhan nutrisi sehari-hari bagi anda dan keluarga, yang mana kesehatan adalah prioritas Utama. Program ini yang membantu menjaga system imunitas guna memaksimalkan kegiatan sehari-hari tanpa merepotkan.</li>
+                      </ul>
+                      <a class="btn btn-primary m-y-5" href="#brief_4">Lainnya</a>
+                      <!-- <a class="btn btn-invert m-y-5" href="#brief_4">More Button</a> -->
+                    </div> <!-- .section-content -->
+                  </div>
+                </div>
+                <div class="col-sm-6 m-t-60-xs-max p-l-60-md-min">
+                  <div class="col-inner clearfix">
+                    <img class="img-responsive float-r-sm-min m-x-auto-xs-max" src="assets\img\item\stayfit.png" alt="" data-sr="right">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #brief_3 -->
+  
+          <div id="brief_4" class="section block-success align-c-xs-max">
+            <div class="container">
+              <div class="row row-table">
+                <div class="col-sm-6">
+                  <div class="col-inner">
+                    <div class="section-heading">
+                      <h2>FOREVER YOUNG</h2>
+                    </div> <!-- .section-heading -->
+                    <div class="section-content">
+                      <ul class="icon-list align-l m-t-30">
+                        <li>Asam sialat yang terkandung di dalam sarang burung wallet membantu menstimulasi proses regenerasi sel. Selain itu, tambahan kolagen di dalam produk ini juga membantu menjaga keelastisan, kekenyalan serta kelembapan kulit.</li>
+                      </ul>
+                      
+                      <!-- <a class="btn btn-invert m-y-5" href="#pricing">More Button</a> -->
+                    </div> <!-- .section-content -->
+                  </div>
+                </div>
+                <div class="col-sm-6 m-t-60-xs-max p-l-60-md-min">
+                  <div class="col-inner clearfix">
+                    <img class="img-responsive float-r-sm-min m-x-auto-xs-max" src="assets\img\item\foreveryoung.png" alt="" data-sr="right">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #brief_4 -->
+  
+
+
+     <div id="faq_section" class="faq-section section section-md bg-light">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Frequently Asked Questions</h2>
+                  </div>
+                </div>
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div id="accordion_1" class="expansion-panel-group expansion-panel-group-light">
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_1" class="expansion-panel-header active"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Bagaimana saya bisa menggunakan jaringan internet ini ?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_1" class="accordion-body collapse in">
+                            <div class="expansion-panel-body">
+                                untuk menggunakan internet di jaringan ini, anda perlu memiliki nama pengguna dan kata sandi yg sudah di daftar.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_2" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Bagaimana saya bisa mendaftar nama pengguna dan kata sandi ?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_2" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                                untuk mendapatkan nama pengguna dan kata sandi, anda perlu bertanya ke IT Support.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_3" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Saya sudah memiliki akun tetapi tidak bisa login ?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_3" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                              untuk permasalah berikut silahkan anda masuk dengan menggunakan browser internet anda dan ketik <a href="http://office.realfood.co.id/"><span class="text-muted">office.realfood.co.id</span></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_4" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Kenapa saya tidak bisa login muncul no more sessions ?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_4" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                                pastikan akun yg terkoneksi tidak lebih dari 2 perangkat, karena satu nama pengguna hanya bisa koneksi dengan 2 perangkat
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_5" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Saya memiliki masalah belum terselesaikan ?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_5" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                                Silahkan anda bertanya pada IT Support untuk mengatasi permasalah tidak bisa menggunakan internet ini
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div id="contact" class="section block-danger">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h2>Informasi Kontak</h2>
+              </div>
+              <div class="row section-content m-t-60-sm-min">
+                <div class="col-sm-6 col-md-5">
+                  <div class="col-inner">
+                    <div class="icon-box _left">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\mobile.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h4>Telp.</h4>
+                      </div>
+                      <div class="icon-box-content font-sub font-italic">
+                        <a href="https://api.whatsapp.com/send?phone=081132239719"><span>(+62) 811-3223-9719 </span></a>
+                      </div>
+                    </div>
+  
+                    <div class="icon-box _left">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\mail.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h4>Email</h4>
+                      </div>
+                      <div class="icon-box-content font-sub font-italic">
+                        <span>it@realfood.co.id</span>
+                        </div>
+                    </div>
+  
+                    <div class="icon-box _left">
+                      <div class="icon-box-media">
+                        <img src="assets\img\icon\pin.png" alt="" data-sr="bottom">
+                      </div>
+                      <div class="icon-box-heading">
+                        <h4>Alamat</h4>
+                      </div>
+                      <div class="icon-box-content font-sub font-italic">
+                        <span>Jl. Lettu Suyitno 89A
+                        <br>
+                        <span>Bojonegoro, Jawa Timur - Indonesia, 62119
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-offset-1 m-t-60-xs-max">
+                  <div class="col-inner">
+                    <div class="col-sm-6 m-t-60-xs-max p-l-60-md-min">
+                  <div class="col-inner clearfix">
+                    <img class="img-responsive float-r-sm-min m-x-auto-xs-max" src="assets\img\item\map.png" alt="" data-sr="right">
+                  </div>
+                </div>
+                      </div>
+                      <div class="form-notify"></div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- #contact -->
+        <!-- <div id="map-canvas"></div> #map-canvas -->
+      </main> <!-- .site-main -->
+      <footer class="site-footer block-invert">
+        <div class="container">
+          <img class="site-footer-logo img-responsive" src="assets\img\site-footer-logo.jpg" data-sr="bottom">
+          <ul class="site-footer-social-list">
+        <li><span class="icon fa fa-facebook"></span><a href="https://www.facebook.com/FitWithRealfood" target="_blank"> Facebook</a></li>
+        <li><span class="icon fa fa-instagram"></span><a href="https://www.instagram.com/fitwithrealfoodid" target="_blank"> Instagram</a></li>
+        <li><span class="icon fa fa-youtube"></span><a href="https://www.youtube.com/channel/UCMu6PMEFmTilLdFHSgN0uYQ/videos" target="_blank"> YouTube</a></li>
+        </ul>
+          <p class="site-footer-copyright">
+            <script>document.write(new Date().getFullYear())</script> &copy;
+            Developed by: IT Staff Realfood Winta Asia | Bojonegoro
+          </p>
+        </div>
+      </footer> <!-- .site-footer -->
+    </div>
+  </div>
+
+  <script src="assets\js\vendor\jquery-1.11.3.min.js"></script>
+  <script src='assets\js\vendor\bootstrap.min.js'></script>
+  <script src='assets\js\vendor\plugin.js'></script>
+  <script src='assets\js\variable.js'></script>
+  <script src='assets\js\map.js'></script>
+  <script src='assets\js\main.js'></script>
+  <script src='assets\js\demo.js'></script>
+  <audio id="audioPlayer" loop=""><source src="assets/audio/audio.mp3" type="audio/mpeg"></audio>
+  <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+  </script>  
+</body>
+</html>
