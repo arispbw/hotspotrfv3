@@ -13,7 +13,7 @@
 //
 // overlay color doesnt mean home section bckground color
 
-var _site_bg_overlay_color =                      'rgba(16, 128, 242, 0.9)'; // overlay color, rgba format
+var _site_bg_overlay_color =                      'rgba(35, 86, 69, 0.9)'; // overlay color, rgba format
 var _site_bg_overlay_disable =                    false; // [true, false] - force disable overlay, sometime we dont need it, disable by this variable
 
 //

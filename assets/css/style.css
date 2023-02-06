@@ -4656,12 +4656,12 @@
 }
 
 .block-default a:not(.btn) {
-  color: #1080f2;
+  color: #23563B;
 }
 
 .block-default a:not(.btn):focus,
 .block-default a:not(.btn):hover {
-  color: #0e73d9;
+  color: #23563B;
   text-decoration: none;
 }
 
@@ -4808,12 +4808,12 @@
 }
 
 .block-light a:not(.btn) {
-  color: #1080f2;
+  color: #23563B;
 }
 
 .block-light a:not(.btn):focus,
 .block-light a:not(.btn):hover {
-  color: #0e73d9;
+  color: #23563B;
   text-decoration: none;
 }
 
@@ -4822,7 +4822,7 @@
 }
 
 .block-primary {
-  background-color: #1080f2;
+  background-color: #23563B;
   color: white;
 }
 
@@ -4894,11 +4894,11 @@
 }
 
 .color-primary {
-  color: #1080f2 !important;
+  color: #23563B !important;
 }
 
 .block-info {
-  background-color: #1080f2;
+  background-color: #23563B;
   color: white;
 }
 
@@ -4970,7 +4970,7 @@
 }
 
 .color-info {
-  color: #1080f2 !important;
+  color: #23563B !important;
 }
 
 .block-success {
@@ -5281,7 +5281,7 @@
  * font family
  */
 .font-default {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Rockwell,"Times New Roman",serif;
 }
 
 .font-alt {
@@ -5563,6 +5563,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 24px;
+  font-family: Rockwell,"Times New Roman",serif;
 }
 
 h2 {
@@ -5570,6 +5571,7 @@ h2 {
 }
 
 h3 {
+  font-family: Rockwell,"Times New Roman",serif;
   font-size: 20px;
 }
 
@@ -6232,7 +6234,7 @@ form._default textarea {
   left: 0;
   position: fixed;
   z-index: 900;
-  background-color: #10cfbd;
+  background-color: #23563B;
 }
 
 .site-loader-spinner {
