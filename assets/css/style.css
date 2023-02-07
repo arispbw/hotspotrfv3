@@ -4974,7 +4974,7 @@
 }
 
 .block-success {
-  background-color: #ec7884;
+  background-color: #bb4444;
   color: white;
 }
 
@@ -5050,7 +5050,7 @@
 }
 
 .block-warning {
-  background-color: #f7c52c;
+  background-color: #d39e00;
   color: white;
 }
 
@@ -5202,7 +5202,7 @@
 }
 
 .block-pink {
-  background-color: #b7dc37fa;
+  background-color: #009c7afa;
   color: white;
 }
 
@@ -5281,7 +5281,7 @@
  * font family
  */
 .font-default {
-  font-family: Rockwell,"Times New Roman",serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 .font-alt {
@@ -5289,7 +5289,7 @@
 }
 
 .font-sub {
-  font-family: Merriweather, "Times New Roman", Times, serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 /**
@@ -5563,7 +5563,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 24px;
-  font-family: Rockwell,"Times New Roman",serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 
 h2 {
@@ -5571,7 +5571,7 @@ h2 {
 }
 
 h3 {
-  font-family: Rockwell,"Times New Roman",serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 20px;
 }
 
